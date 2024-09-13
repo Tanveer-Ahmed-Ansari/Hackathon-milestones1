@@ -1,0 +1,85 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+display: flex;
+background-color: white;
+width: 80%;
+margin: 0 auto;
+border-radius: 110px;
+box-shadow: 0 0 20px rgba(54, 7, 129, 0.795);
+}
+.left-sec {
+    background-color: #a60e0e;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid brown;
+}
+.profile-pic {
+    width: 120px;
+    height: 150px;
+    margin: 10%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+.pra{
+    text-align: center;
+    text:auto    
+
+}
+h1 {
+    font-size: 36px;
+    padding: 10%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #046433;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;   
+}
+.text{
+    size: 100px;
+    font-style: initial;
+}
+ul {
+    list-style: fill round;
+    padding: 10;
+    margin: 10px 0;    
+}
+
+ul li {
+    margin: 5px;
+}
+
+.right-sec {
+    padding: 30px;
+    width: 65%;
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+button:hover {
+    background-color: rgb(216, 42, 42);
+
+}
